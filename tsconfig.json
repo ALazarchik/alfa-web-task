@@ -18,6 +18,6 @@
     },
     "include": [
         "*/*.ts",
-        "support/utils/checks.ts"
+        "support/utils/checks/checks.ts"
         ]
 }

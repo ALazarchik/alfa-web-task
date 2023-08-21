@@ -1,11 +1,11 @@
 import { test } from '@playwright/test';
 import { StartPage } from '../pageObjects/StartPage';
 import { PAGES_ENDPOINTS, PRODUCT_TYPES, PROMOTIONAL_PRODUCTS, REGULAR_PRODUCTS, TEST_USER } from '../support/data/constants';
-import { checkElementIsVisible, checkNumberInElement, checkPageIsOpened } from '../support/utils/checks';
+import { checkElementIsVisible, checkNumberInElement, checkPageIsOpened } from '../support/utils/checks/checks';
 import { NavigationBar } from '../pageObjects/NavigationBar';
 import { LoginPage } from '../pageObjects/LoginPage';
 import { AllProductsPage } from '../pageObjects/AllProductsPage';
-import { DropdownBasketChecks } from '../support/utils/dropdownBasketChecks';
+import { DropdownBasketChecks } from '../support/utils/checks/dropdownBasketChecks';
 import { chooseRandomProduct } from '../support/utils/helpers';
 import { PromotionalProducts, RegularProducts } from '../support/types/types';
 
