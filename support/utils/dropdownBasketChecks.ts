@@ -1,6 +1,6 @@
 import { Locator, Page, expect } from '@playwright/test';
 import { NavigationBar } from '../../pageObjects/NavigationBar';
-import { PromotionalProducts, RegularProducts } from '../typesAndInterfaces/typesAndInterfaces';
+import { PromotionalProducts, RegularProducts } from '../types/types';
 import { checkElementContainsText, checkElementIsVisible } from './checks';
 
 export class DropdownBasketChecks extends NavigationBar {

@@ -3,7 +3,7 @@ It is a bad practice to keep user's credentials hardcoded in the code. I usually
 and use it in tests.
 */
 
-import { PageEndpoint, ProductTypes, PromotionalProducts, RegularProducts, UserCredentials } from "../typesAndInterfaces/typesAndInterfaces";
+import { PageEndpoint, ProductTypes, PromotionalProducts, RegularProducts, UserCredentials } from "../types/types";
 
 export const TEST_USER: UserCredentials = {
     login: 'test',

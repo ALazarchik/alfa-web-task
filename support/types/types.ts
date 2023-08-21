@@ -6,16 +6,16 @@ export type ProductType = 'regular' | 'promotional';
 
 export type PageNames = 'basketPage' | 'loginPage';
 
-export interface ProductTypes {
+export type ProductTypes = {
     [key: string]: ProductType
 }
 
-export interface UserCredentials {
+export type UserCredentials = {
     login: string;
     password: string;
 }
 
-export interface Endpoint { endpoint: string };
+export type Endpoint = { endpoint: string };
 
 export type PageEndpoint = {
     [key: string]: Endpoint;

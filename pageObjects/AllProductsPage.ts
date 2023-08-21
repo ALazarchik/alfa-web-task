@@ -1,5 +1,5 @@
 import { Locator, Page } from "@playwright/test";
-import { PromotionalProducts, RegularProducts } from "../support/typesAndInterfaces/typesAndInterfaces";
+import { PromotionalProducts, RegularProducts } from "../support/types/types";
 
 export class AllProductsPage {
     readonly page: Page;

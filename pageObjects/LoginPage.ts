@@ -1,5 +1,5 @@
 import { Locator, Page } from "@playwright/test";
-import { UserCredentials } from '../support/typesAndInterfaces/typesAndInterfaces';
+import { UserCredentials } from '../support/types/types';
 
 export class LoginPage {
     readonly page: Page;

@@ -7,9 +7,9 @@ import { LoginPage } from '../pageObjects/LoginPage';
 import { AllProductsPage } from '../pageObjects/AllProductsPage';
 import { DropdownBasketChecks } from '../support/utils/dropdownBasketChecks';
 import { chooseRandomProduct } from '../support/utils/helpers';
-import { PromotionalProducts, RegularProducts } from '../support/typesAndInterfaces/typesAndInterfaces';
+import { PromotionalProducts, RegularProducts } from '../support/types/types';
 
-test.describe('', async () => {
+test.describe('Basket tests:', async () => {
 
     let navigationBar: NavigationBar;
 

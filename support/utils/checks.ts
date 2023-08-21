@@ -1,5 +1,5 @@
 import { Locator, Page, expect } from '@playwright/test';
-import { Endpoint } from '../typesAndInterfaces/typesAndInterfaces';
+import { Endpoint } from '../types/types';
 
 export async function checkNumberInElement(expectedNumber: number, element: Locator): Promise<void> {
     const actualNumber = Number(await element.innerText());
